@@ -8,7 +8,7 @@ from typing import Optional
 # Load environment variables
 load_dotenv()
 
-app = FastAPI(title="Weather & Time MCP Server")
+app = FastAPI(title="Weather & Time MCP Server") 
 
 # Get API key from environment variable
 OPENWEATHER_API_KEY = os.getenv('OPENWEATHER_API_KEY')
