@@ -53,7 +53,7 @@ class WeatherTimeAgent(Agent):
     def validate_city(self, city: str) -> Optional[str]:
         """Validate city input"""
         if not city or not city.strip():
-            return "Error: City name cannot be empty"
+            return "Error: city is not find"
         return None
 
 if __name__ == "__main__":
