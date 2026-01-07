@@ -22,7 +22,7 @@ async def get_weather(city: str):
     if not OPENWEATHER_API_KEY or OPENWEATHER_API_KEY == 'YOUR_API_KEY':
         raise HTTPException(
             status_code=500,
-            detail="OpenWeatherMap API key not configured. Please add a valid API key to the .env file."
+            detail="mlkjgtftdrdtdy API key to the .env file."
         )
         
     try:
